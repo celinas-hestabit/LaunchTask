@@ -35,7 +35,7 @@ function getDefaultGateway() {
   });
 }
  
-function getNetworkInterfaces() {
+function getNetworkInterfaces() { // function to get network interfaces
   console.log("Network Interfaces");
   console.log(os.networkInterfaces());
 }
